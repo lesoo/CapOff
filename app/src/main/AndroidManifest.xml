@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dongyang.gg">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+
+
+    <application
+        android:allowBackup="true"
+        android:usesCleartextTraffic="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:requestLegacyExternalStorage="true"
+        android:preserveLegacyExternalStorage="true"
+        android:theme="@style/Theme.Gg">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDTFzHSNyRVezyj6Bz-T3za8ivGPtiE0kI" />
+
+        <activity
+            android:name=".activity.Map_Activity"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".activity.My_profileActivity" />
+        <activity android:name=".fragment.MapTestActivity" />
+        <activity android:name=".activity.Chat_ListviewActivity" />
+        <activity
+            android:name=".activity.Chat_Activity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan"
+            tools:ignore="Instantiatable">
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDTFzHSNyRVezyj6Bz-T3za8ivGPtiE0kI" />
+
+        <activity android:name=".activity.Initial_Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.DetailListActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+
+        <activity
+            android:name=".activity.Wish_ListActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".activity.Bid_ListActivity"
+            tools:ignore="Instantiatable"
+            android:usesCleartextTraffic="true"
+            android:exported="true">
+
+        </activity>
+        <activity android:name=".activity.Item_ListActivity"
+            tools:ignore="Instantiatable"
+            android:usesCleartextTraffic="true"
+            android:exported="true">
+
+
+
+        </activity>
+        <activity android:name=".activity.Login_Activity"
+            tools:ignore="Instantiatable"
+            android:usesCleartextTraffic="true">
+
+        </activity>
+
+
+        <activity
+            android:name=".activity.SignUpActivity"
+            android:windowSoftInputMode="adjustPan">
+
+        </activity>
+    </application>
+
+</manifest>
