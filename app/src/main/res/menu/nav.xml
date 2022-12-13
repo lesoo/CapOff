@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Category"
+        android:title="Category"
+        android:icon="@drawable/menu" />
+    <item
+        android:id="@+id/Chatting"
+        android:title="Chatting"
+        android:icon="@drawable/chat"/>
+    <item
+        android:id="@+id/Main"
+        android:title="MainPage"
+        android:icon="@drawable/main"/>
+    <item
+        android:id="@+id/WishList"
+        android:title="WishList"
+        android:icon="@drawable/wishlist"/>
+    <item
+        android:id="@+id/MyPage"
+        android:title="MyPage"
+        android:icon="@drawable/profile"/>
+
+
+</menu>
