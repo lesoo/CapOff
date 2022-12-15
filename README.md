@@ -35,17 +35,28 @@
 <br>
 
 ## 시나리오
-<img src="https://github.com/lesoo/CapOff/blob/main/Cap-Off_img/main.PNG?raw=true" width="100%">
-<img src="https://github.com/lesoo/CapOff/blob/main/Cap-Off_img/list.PNG?raw=true" width="100%">
+<table>
+	<tr><td>시작화면</td><td>로그인</td><td>메인</td></tr>
+	<tr><td>
+		<img src="https://github.com/lesoo/CapOff/blob/main/Cap-Off_img/initial.PNG?raw=true" width="100%"></td>
+	<td><img src="https://github.com/lesoo/CapOff/blob/main/Cap-Off_img/login.PNG?raw=true" width="100%">
+		</td><td><img src="https://github.com/lesoo/CapOff/blob/main/Cap-Off_img/main.PNG?raw=true" width="100%">
+		</td></tr>	
+	<tr><td>리스트</td><td>물품 등록</td><td>경매</td>
+	</td></tr>
+	<tr><td><img src="https://github.com/lesoo/CapOff/blob/main/Cap-Off_img/list.PNG?raw=true" width="100%"></td>
+	<td><img src="https://github.com/lesoo/CapOff/blob/main/Cap-Off_img/regist.PNG?raw=true" width="100%"></td>
+		<td><img src="https://github.com/lesoo/CapOff/blob/main/Cap-Off_img/oction.PNG?raw=true" width="100%"></td>
+	<tr><td>채팅</td><td>위치전송</td>
+	</tr><tr>
+	<td><img src="https://github.com/lesoo/CapOff/blob/main/Cap-Off_img/chat.PNG?raw=true" width="100%"></td>
+	<td><img src="https://github.com/lesoo/CapOff/blob/main/Cap-Off_img/map.PNG?raw=true" width="100%"></td>
+	</tr>
+</table>
+
 
 <br>
 
 ## 어려웠던 점
+쿼리를 할 때마다 대응하는 php를 만들고, 불러와야 해서 불편했다.
 
-
-
-		1. 프로젝트명 및 기타내용
-		2. 데이터 구조
-		3. 프로젝트 결과물 페이지 캡쳐 화면 및 화면 설명(개발에 대한 설명)
-		4. 프로젝트 결과물 페이지 캡쳐 화면 및 화면 설명(개발에 대한 설명)
-		5. 느낀점
