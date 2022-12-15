@@ -14,10 +14,10 @@
   ![Kotlin](https://img.shields.io/badge/kotlin-%23ED8B00.svg?style=for-the-badge&logo=kotlin&logoColor=white)
 
  ![MySQL](https://img.shields.io/badge/MySQL-%23666699.svg?style=for-the-badge&logo=MySQL&logoColor=white)
-  ![DynamoDB](https://img.shields.io/badge/DynamoDB-%232222bb.svg?style=for-the-badge&logo=DynamoDB&logoColor=white)
-  ![API](https://img.shields.io/badge/APIGateway-%23ED8B00.svg?style=for-the-badge&logo=api&logoColor=white)
-  ![Lambda](https://img.shields.io/badge/lambda-%23ED8B00.svg?style=for-the-badge&logo=Lambda&logoColor=white)
- ![EC2](https://img.shields.io/badge/EC2-%232222bb.svg?style=for-the-badge&logo=EC2&logoColor=white)
+  ![DynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white)
+  ![API](https://img.shields.io/badge/Amazon%20APIGateway-%23ED8B00.svg?style=for-the-badge&logo=Amazom%20APIGateway&logoColor=white)
+  ![Lambda](https://img.shields.io/badge/Amazom%20lambda-%23ED8B00.svg?style=for-the-badge&logo=Amazom%20Lambda&logoColor=white)
+ ![EC2](https://img.shields.io/badge/Amazom%20EC2-%232222bb.svg?style=for-the-badge&logo=Amazom%20EC2&logoColor=white)
   ![Node.js](https://img.shields.io/badge/nodejs-%2344f8844?style=for-the-badge&logo=nodejs&logoColor=white)
 ![FCM](https://img.shields.io/badge/FirebaseCloudeMessaging-%23fd8B00?style=for-the-badge&logo=fcm&logoColor=white)
   
